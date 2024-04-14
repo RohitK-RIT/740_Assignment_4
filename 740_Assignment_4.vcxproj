@@ -18,6 +18,29 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="shaders\c_shader.comp" />
+    <Content Include="shaders\f_shader.frag" />
+    <Content Include="shaders\v_shader.vert" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Object.cpp" />
+    <ClCompile Include="ParticleSystem.cpp" />
+    <ClCompile Include="ShaderClass.cpp" />
+    <ClCompile Include="ShaderProgram.cpp" />
+    <ClCompile Include="Transform.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="ParticleSystem.h" />
+    <ClInclude Include="ShaderClass.h" />
+    <ClInclude Include="ShaderProgram.h" />
+    <ClInclude Include="Text.h" />
+    <ClInclude Include="Transform.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{33C49013-90E0-4945-9A02-26B473972DAE}</ProjectGuid>
